@@ -1,0 +1,31 @@
+REGEX: 
+
+
+
+Quantifier
+
+{n}  -  exatamente n vezes
+{n, }  -  no minimo n vezes
+{n, m}   -   no minimo n+1 vezes, no máximo m vezes
+
+?  -  Zero ou uma vez
+*  -  Zero ou mais vezes
++  - Uma uma ou mais vezes
+
+
+Classes de Char
+
+[A-Z]  -  Letras de A até Z
+[123]  -  12, ou 3
+\d  - Todos os digitos [0,9]
+\s  -  Whitespace
+\w  - Wordchar [A-Za-z0-9]
+
+
+Ancoras 
+^  -  pega o inicio da expressão. exe: file://caminhorelativo  
+				            const regex =  ^file (o retorno será apenas file)
+
+$ - pega o final de uma exressão 
+
+\b expressaao \b  -  pega a expressao que está entre as ancoras de b
