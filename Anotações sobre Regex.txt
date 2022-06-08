@@ -1,7 +1,7 @@
 REGEX: 
 
 
-
+\
 Quantifier
 
 {n}  -  exatamente n vezes
@@ -11,6 +11,7 @@ Quantifier
 ?  -  Zero ou uma vez
 *  -  Zero ou mais vezes
 +  - Uma uma ou mais vezes
+. (ponto)  -   Qualquer caracter
 
 
 Classes de Char
@@ -29,3 +30,13 @@ Ancoras
 $ - pega o final de uma exressão 
 
 \b expressaao \b  -  pega a expressao que está entre as ancoras de b
+
+Grupos
+
+Tudo que estiver entre ( ) será um grupo. 
+
+(?: ) - interrogação informa que o gupo selecionado não será retornado na pesquisa. (grupo não será capturado)
+
+( )? - Verifica se o grupo aparece zero ou uma vez
+
+/\1 - Faz referencia ao grupo pelo número indicado - Backreferences

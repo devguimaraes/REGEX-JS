@@ -28,7 +28,7 @@ Quantifier
 ^ - pega o inicio da expressão. <br>
 ˋˋˋ
 exe:
-file://caminhorelativo
+file://caminhorelativo;
 const regex = ^file (o retorno será apenas file)
 
 ˋˋˋ
